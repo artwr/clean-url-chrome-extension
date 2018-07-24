@@ -1,0 +1,10 @@
+{
+  "name": "Clean Link",
+  "description": "Allows to open the clicked link without the URL paramaters",
+  "version": "0.1",
+  "permissions": ["activeTab", "contextMenus", "tabs"],
+  "background": {
+    "scripts": ["contextMenusCleanLink.js"]
+  },
+  "manifest_version": 2
+}
